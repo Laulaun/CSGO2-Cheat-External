@@ -1,8 +1,3 @@
-
-
----
-
-
 # CSGO2 Cheat Source/Compile
 
 CSGO2 Cheat is a C++ project designed to enhance your gaming experience in the popular game Counter-Strike: Global Offensive 2 (CSGO2). This cheat offers various features to give you a competitive edge while playing the game. However, it's essential to use them responsibly.
@@ -93,6 +88,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Disclaimer
 
 This cheat is intended for educational and entertainment purposes only. The developers and maintainers of this cheat are not responsible for any consequences resulting from its usage.
+
 
 
 ---
