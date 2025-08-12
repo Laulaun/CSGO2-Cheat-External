@@ -27,7 +27,6 @@ build() {
 	git submodule init
 	git config submodule.ImGUI.url "${_pkgname}/src/ImgGUI"
 	git submodule update	
-
 	cmake .
 	make
 }
@@ -35,7 +34,6 @@ build() {
 package() {
 	install -Dm755 csgo2-load "$pkgdir"/usr/bin/csgo2-load
 	install -Dm755 csgo2-uload "$pkgdir"/usr/bin/csgo2-uload
-	
 	cd "${_pkgname}"
 	make DESTDIR="$pkgdir/"
 	install -Dm755 libcsgo2.so "$pkgdir"/usr/lib/libcsgo2.so
